@@ -36,22 +36,34 @@ Boolean function minimization refers to the process of simplifying a Boolean exp
 
 Developed by: RegisterNumber:24900616 Swetha.K
 '''
-
+i)
 module funct1(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+
+ii)
+module funct2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
 endmodule'''
-
-
 
 
 
 **RTL**
 ![Screenshot (22)](https://github.com/user-attachments/assets/35341a36-d870-4724-ade4-4c668c79bb24)
+![Screenshot (26)](https://github.com/user-attachments/assets/5ba56cb4-5466-48f0-83b2-b20041d15918)
+
+
 
 **Timing Diagram**
 ![Screenshot (23)](https://github.com/user-attachments/assets/68f195d2-610b-41e5-9a9a-93d2ad64d357)
+![Screenshot (27)](https://github.com/user-attachments/assets/ad623bc4-ce8c-49d6-a42b-5e2f8e3f09cd)
+**Output**
+![Screenshot (23)](https://github.com/user-attachments/assets/68f195d2-610b-41e5-9a9a-93d2ad64d357)
+![Screenshot (27)](https://github.com/user-attachments/assets/ad623bc4-ce8c-49d6-a42b-5e2f8e3f09cd)
 
 
 **Result:**
