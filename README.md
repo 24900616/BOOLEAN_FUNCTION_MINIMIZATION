@@ -29,20 +29,31 @@ Boolean function minimization refers to the process of simplifying a Boolean exp
 
 5.	For different input combinations generate the timing diagram.
 
+**Minimization**
+
+F1
+![WhatsApp Image 2024-12-27 at 10 26 10_ca9c4705](https://github.com/user-attachments/assets/9f58f1a2-4593-495c-96ff-d067e3ba5d4f)
+F2
+![WhatsApp Image 2024-12-27 at 10 26 26_27ebb691](https://github.com/user-attachments/assets/2f6fb486-ee45-45ee-9491-2138dafcf853)
+
+**Truth Table**
+
+![WhatsApp Image 2024-12-27 at 10 26 45_3172d564](https://github.com/user-attachments/assets/4b0bfce6-a426-4498-b67f-f2dc1ec589ef)
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:24900616 Swetha.K
+Developed by: Swetha.K  RegisterNumber: 24900616 
 ```
+1.
 module funct1(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
 
-
+2.
 module funct2(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
@@ -50,21 +61,14 @@ assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
 
-
-
 **RTL**
-![Screenshot (22)](https://github.com/user-attachments/assets/35341a36-d870-4724-ade4-4c668c79bb24)
-![Screenshot (26)](https://github.com/user-attachments/assets/5ba56cb4-5466-48f0-83b2-b20041d15918)
+![WhatsApp Image 2024-12-27 at 10 27 15_0dc383c0](https://github.com/user-attachments/assets/95c9cf66-b259-4c73-bed0-771bcfd44931)
+![WhatsApp Image 2024-12-27 at 10 27 48_9613b54e](https://github.com/user-attachments/assets/967aca8c-67a7-4376-9182-7e91124c0e77)
 
 
-
-**Timing Diagram**
-![Screenshot (23)](https://github.com/user-attachments/assets/68f195d2-610b-41e5-9a9a-93d2ad64d357)
-![Screenshot (27)](https://github.com/user-attachments/assets/ad623bc4-ce8c-49d6-a42b-5e2f8e3f09cd)
 **Output**
-![Screenshot (23)](https://github.com/user-attachments/assets/68f195d2-610b-41e5-9a9a-93d2ad64d357)
-![Screenshot (27)](https://github.com/user-attachments/assets/ad623bc4-ce8c-49d6-a42b-5e2f8e3f09cd)
-
+![WhatsApp Image 2024-12-27 at 10 28 04_7c2d2e26](https://github.com/user-attachments/assets/b5707ac0-a434-4408-a57a-7273a18f9ea6)
+![WhatsApp Image 2024-12-27 at 10 28 25_f1fc549f](https://github.com/user-attachments/assets/c18ae005-6295-4895-9c65-451add5e5222)
 
 **Result:**
 
