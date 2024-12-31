@@ -62,12 +62,18 @@ endmodule
 ```
 
 **RTL**
+
+F1
 ![WhatsApp Image 2024-12-27 at 10 27 15_0dc383c0](https://github.com/user-attachments/assets/95c9cf66-b259-4c73-bed0-771bcfd44931)
+F2
 ![WhatsApp Image 2024-12-31 at 12 39 37_e839c335](https://github.com/user-attachments/assets/36c1234c-4355-477d-99e0-bcb2d0f0ab0f)
 
 
 **Output**
+
+F1
 ![WhatsApp Image 2024-12-27 at 10 28 04_7c2d2e26](https://github.com/user-attachments/assets/b5707ac0-a434-4408-a57a-7273a18f9ea6)
+F2
 ![WhatsApp Image 2024-12-27 at 10 28 25_f1fc549f](https://github.com/user-attachments/assets/c18ae005-6295-4895-9c65-451add5e5222)
 
 **Result:**
